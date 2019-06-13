@@ -13,5 +13,13 @@ public class Dog {
 	public void takeABreath() {
 		System.out.println("...");
 	}
+	public void barkBark(Dog dog) {
+		System.out.println("ruff");
+		System.out.println("ruff");
+		dog.takeABreath();
+		System.out.println("ruff");
+		System.out.println("ruff");
+		System.out.println("ruff");
+	}
 
 }

@@ -22,13 +22,6 @@ public class DogManager {
 		dog.takeABreath();
 	}
 
-	public void barkBark(Dog dog) {
-		System.out.println("ruff");
-		System.out.println("ruff");
-		dog.takeABreath();
-		System.out.println("ruff");
-		System.out.println("ruff");
-		System.out.println("ruff");
-	}
+	
 
 }
